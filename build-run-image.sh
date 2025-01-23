@@ -6,10 +6,10 @@
 # OTHERWISE THE BUILDER WOULD INCLUDE IT INTO DOCKER IMAGE!!!
 
 # build the container
-docker build -t om-fm:0.1 .
+docker build -t oatmeal-oxygen:0.1 .
 
 # Run the training script
-docker run --memory=100g --gpus all -v /home/$USER/lung-nodule-detection/foundation-model/:/app --privileged --pid=host --shm-size 10g om-fm:0.1
+docker run --memory=100g --gpus all -v /home/$USER/lung-nodule-detection/foundation-model/:/app --privileged --pid=host --shm-size 10g oatmeal-oxygen:0.1
 
 #####################################################################
 # may need to tweak the settings depending on regular and GPU memory.
@@ -18,4 +18,4 @@ docker run --memory=100g --gpus all -v /home/$USER/lung-nodule-detection/foundat
 #####################################################################
 
 # interactive way to run it
-# docker run -it --memory=100g --gpus all -v /home/$USER/lung-nodule-detection/foundation-model/:/app --privileged --pid=host --shm-size 10g om-fm:0.1 /bin/bash
+# docker run -it --memory=100g --gpus all -v /home/$USER/lung-nodule-detection/foundation-model/:/app --privileged --pid=host --shm-size 10g oatmeal-oxygen:0.1 /bin/bash

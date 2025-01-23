@@ -1,0 +1,4 @@
+# .dockerignore
+
+Data/nlst-tensors
+

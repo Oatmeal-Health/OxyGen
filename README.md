@@ -12,7 +12,7 @@ conda activate your-training-environment
 pip install -r requirements.txt
 ```
 
-1. For the default training to work, directory `Data/nlst-tensors` should exist and point to `nlst-tensors` bucket or directory. See `./train-in-container.sh` for the steps.
+1. For the default training to work, directory `Data/nlst-tensors/Tensors` should exist and contain raw or `blosc`-encoded tensors. One way to achieve it is to point `Data/nlst-tensors` to `nlst-tensors` bucket. See `./train-in-container.sh` for the steps. Reach out to the Oatmeal Health team for the data.
 
 1. Smoke-test of training the default model with default parameters:
     ```

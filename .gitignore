@@ -1,4 +1,17 @@
+# Output dir
+Output
+nohup.out
+outputs
+
+# imported repositories
+Contrib
+
+# Mounted NLST buckets
+nlst-oatmeal
+nlst-tensors
+
 # Byte-compiled / optimized / DLL files
+*.pyc
 __pycache__/
 *.py[cod]
 *$py.class

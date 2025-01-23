@@ -57,7 +57,7 @@ def nlst_dataloader(
     dataloader = data.DataLoader(
         dataset=dataset,
         batch_size=batch_size,
-        shuffle=shuffle and not sampler,
+        shuffle=shuffle if sampler is None else False,
         sampler=sampler,  # Use sampler for distributed training
         num_workers=num_workers,
         pin_memory=True,
