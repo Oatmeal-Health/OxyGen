@@ -1,0 +1,4 @@
+dataset_size: 95000
+subvolume_size: 64
+mask_ratio: 0.5
+mask_size: 10

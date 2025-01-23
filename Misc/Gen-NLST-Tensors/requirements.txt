@@ -1,0 +1,12 @@
+# perform pip install -U on this
+
+# compression-related
+numcodecs
+blosc
+
+# Misc
+torch
+pandas
+albumentations
+google-cloud-storage
+

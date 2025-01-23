@@ -1,0 +1,3 @@
+type: unetr-pp-cube-64
+feature_size: 16
+learning_rate: 0.00015

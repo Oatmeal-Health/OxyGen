@@ -1,0 +1,5 @@
+batch_size: 8
+device_count: 2
+max_epochs: 5000
+train_batch_limit: 100
+val_batch_limit: 20

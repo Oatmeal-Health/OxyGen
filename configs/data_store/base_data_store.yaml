@@ -1,0 +1,5 @@
+tensor_root: 'Data/nlst-tensors/Tensors'
+train_scans: 'Data/Train_90k.csv'
+val_scans: 'Data/Holdout_N.csv'
+test_scans: 'Data/Test_5k.csv'
+output_dir: Output

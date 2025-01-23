@@ -1,0 +1,5 @@
+defaults:
+  - model: unetr-pp-cube-64
+  - data_store: base_data_store
+  - data: base_data
+  - training: base_training

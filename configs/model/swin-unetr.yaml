@@ -1,0 +1,3 @@
+type: swin-unetr
+feature_size: 48
+learning_rate: 0.00015
